@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Nikkah Invitation</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+  <style>
+    body {
+      font-family: 'Arial', sans-serif;
+      background-color: #f8f8f8;
+      margin: 0;
+      padding: 0;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-height: 100vh;
+    }
+
+    .invitation-card {
+      background-color: #fff;
+      border-radius: 10px;
+      box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+      max-width: 600px;
+      padding: 30px;
+      text-align: center;
+      overflow: hidden;
+    }
+
+    h1, h2, p {
+      color: #333;
+    }
+
+    .date-time {
+      font-weight: bold;
+      font-size: 1.2em;
+      margin-top: 20px;
+    }
+
+    .location {
+      margin-top: 10px;
+    }
+
+    .note {
+      margin-top: 20px;
+      color: #555;
+    }
+
+    .footer {
+      margin-top: 30px;
+      color: #777;
+      font-size: 0.9em;
+    }
+
+    img {
+      max-width: 100%;
+      border-radius: 50%;
+      margin-top: 20px;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="invitation-card animate__animated animate__fadeIn">
+    <h1 style="font-size: 2em; color: #e44d26;">Islamic Wedding Invitation</h1>
+    <h2 style="font-size: 1.5em;">Cordially invite you to the Nikkah ceremony</h2>
+    
+    <div class="date-time">
+      <p>Date: Friday, 12th January 2024</p>
+      <p>Time: After Asr Prayer</p>
+    </div>
+
+    <div class="location">
+      <p>Islamic Center, Tallinn, Estonia</p>
+    </div>
+
+    <div class="note">
+      <p>Kindly join us to celebrate this joyous occasion.</p>
+    </div>
+
+    <img src="bride_image_url" alt="Bride's Image">
+    <img src="groom_image_url" alt="Groom's Image">
+
+    <div class="footer">
+      <p>RSVP by January 5th, 2024</p>
+    </div>
+  </div>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/3.2.1/anime.min.js"></script>
+  <script>
+    // You can add additional JavaScript functionality or animations using Anime.js or other libraries
+    anime({
+      targets: '.invitation-card',
+      translateY: [-50, 0],
+      opacity: [0, 1],
+      duration: 1000,
+      easing: 'easeInOutQuad',
+    });
+  </script>
+
+</body>
+</html>
