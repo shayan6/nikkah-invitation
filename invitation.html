@@ -40,11 +40,11 @@
 
       .heading {
         color: white;
-        padding-top: 3rem;
+        padding-top: 5rem;
+        margin-bottom: 3px;
       }
 
       .message {
-        font-size: 1.5em;
         margin: 0 3rem;
       }
 
@@ -53,10 +53,11 @@
       h3,
       p {
         color: #fff;
+        margin-top: 3px;
+        margin-bottom: 3px;
       }
 
       .date-time {
-        font-weight: bold;
         font-size: 1.2em;
         margin-top: 20px;
       }
@@ -67,13 +68,6 @@
 
       .note {
         margin-top: 20px;
-        color: #555;
-      }
-
-      .footer {
-        margin-top: 30px;
-        color: #777;
-        font-size: 0.9em;
       }
 
       img {
@@ -88,13 +82,17 @@
         font-size: 1.2rem;
       }
 
+      .yellow {
+        color: #ffa726;
+      }
+
       @media only screen and (max-width: 767px) {
         .invitation-card {
           height: 35rem;
+          padding: 2rem 5.5rem;
         }
 
         .message {
-          font-size: 1.5em;
           margin: 0rem;
         }
 
@@ -111,11 +109,13 @@
       <p class="message">Cordially invite you to the Nikkah ceremony</p>
 
       <div class="date-time">
-        <p>Date: Friday, 12th January 2024</p>
-        <p>Time: After Asr Prayer</p>
+        <p class="yellow">Save the date</p>
+        <p>Friday, 12th January 2024</p>
+        <p>After Asr Prayer</p>
       </div>
 
       <div class="location">
+        <p class="yellow">Location</p>
         <p>Islamic Center, Tallinn, Estonia</p>
       </div>
 
