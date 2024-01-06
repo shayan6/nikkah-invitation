@@ -21,7 +21,7 @@
     }
 
     .invitation-card {
-      background-image: url(invitation.png);
+      background-image: url(background.png);
       background-size: cover;
       background-position: center;
       width: 25rem;
@@ -32,27 +32,13 @@
       padding: 2rem 6rem;
     }
 
-    .invitation-card .groom-letter {
-      position: absolute;
-      top: 9rem;
-      left: 14rem;
-      color: #ebc804;
-    }
-    
-    .invitation-card .bride-letter {
-      position: absolute;
-      top: 11rem;
-      right: 15rem;
-      color: #ebc804;
-    }
-
     .couple-name {
       color: white;
-      padding-top: 14rem;
+      padding-top: 5rem;
     }
 
     h1, h2, p {
-      color: #333;
+      color: #fff;
     }
 
     .date-time {
@@ -123,11 +109,26 @@
 <body>
 
   <div class="invitation-card animate__animated animate__fadeIn">
-    <h1 class="groom-letter">D</h1>
-    <h1 class="bride-letter">T</h1>
     <h1 class="couple-name">Deigo & Togzhan</h1>
-    <img src="image.png" alt="bride and groom image" >
-    <a  href="#">Open invitation card</a>
+    <h1 style="font-size: 2em;">Wedding Invitation</h1>
+    <h2 style="font-size: 1.5em; margin: 0 3rem;">Cordially invite you to the Nikkah ceremony</h2>
+    
+    <div class="date-time">
+      <p>Date: Friday, 12th January 2024</p>
+      <p>Time: After Asr Prayer</p>
+    </div>
+
+    <div class="location">
+      <p>Islamic Center, Tallinn, Estonia</p>
+    </div>
+
+    <div class="note">
+      <p>Kindly join us to celebrate this joyous occasion.</p>
+    </div>
+
+    <div class="footer">
+      <p>RSVP by January 5th, 2024</p>
+    </div>
   </div>
 
   <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/3.2.1/anime.min.js"></script>
