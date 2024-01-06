@@ -14,20 +14,10 @@
       href="https://fonts.googleapis.com/css2?family=Calligraffitti&display=swap"
       rel="stylesheet"
     />
+    <link href="style/style.css" rel="stylesheet"/>
     <style>
-      body {
-        font-family: "Calligraffitti", cursive;
-        background-color: #ebc804;
-        margin: 0;
-        padding: 0;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        min-height: 100vh;
-      }
-
       .invitation-card {
-        background-image: url(invitation.png);
+        background-image: url(background.png);
         background-size: cover;
         background-position: center;
         width: 25rem;
@@ -38,83 +28,66 @@
         padding: 2rem 6rem;
       }
 
-      .invitation-card .groom-letter {
-        position: absolute;
-        top: 9rem;
-        left: 14rem;
-        color: #ebc804;
+      .heading {
+        padding-top: 5rem;
+        margin-bottom: 3px;
       }
 
-      .invitation-card .bride-letter {
-        position: absolute;
-        top: 11rem;
-        right: 15rem;
-        color: #ebc804;
+      .message {
+        margin: 0 3rem;
       }
-
-      .couple-name {
-        color: white;
-        padding-top: 14rem;
-      }
-
+      
       img {
-        max-width: 40%;
+        max-width: 70%;
         margin-top: 3rem;
       }
+
       a {
         display: block;
-        color: #ffa726;
+        color: #eeed00;
         text-decoration: none;
         font-weight: bold;
-        font-size: 1.2rem;
+        font-size: .8rem;
+        position: absolute;
+        bottom: 8.4rem;
+        left: 15.5rem;
+        transform: rotate(10deg);
       }
 
       @media only screen and (max-width: 767px) {
         .invitation-card {
           height: 35rem;
+          padding: 2rem 5.5rem;
         }
 
-        .invitation-card .groom-letter {
-          top: 7rem;
-          left: 8rem;
-        }
-
-        .invitation-card .bride-letter {
-          top: 9rem;
-          right: 9rem;
-        }
-
-        .couple-name {
-          font-size: 1.4rem;
-          padding-top: 11rem;
+        .message {
+          margin: 0rem;
         }
 
         img {
-          max-width: 50%;
+          max-width: 100%;
           margin-top: 3rem;
+        }
+        
+        a {
+          bottom: 7.4rem;
+          left: 9rem;
         }
       }
     </style>
   </head>
   <body>
     <div class="invitation-card animate__animated animate__fadeIn">
-      <h1 class="groom-letter">D</h1>
-      <h1 class="bride-letter">T</h1>
-      <h1 class="couple-name">Deigo & Togzhan</h1>
-      <img src="image.png" alt="bride and groom image" />
-      <a href="invitation.html">Open invitation card</a>
+      <h2 class="heading yellow">Save the date</h2>
+      <h3 class="message">Friday, 12th January 2024</h3>
+      <h3 class="message">After Asr Prayer</h3>
+
+      <img src="image.png" alt="couple image"/>
+      <a class="button" href="invitation.html"> Click to open invitation </a>
+
     </div>
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/3.2.1/anime.min.js"></script>
-    <script>
-      // You can add additional JavaScript functionality or animations using Anime.js or other libraries
-      anime({
-        targets: ".invitation-card",
-        translateY: [-50, 0],
-        opacity: [0, 1],
-        duration: 1000,
-        easing: "easeInOutQuad",
-      });
-    </script>
+    <script src="script/script.js"></script>
   </body>
 </html>

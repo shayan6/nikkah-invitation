@@ -1,0 +1,28 @@
+body {
+    font-family: "Calligraffitti", cursive;
+    background-color: #ebc804;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+h1,
+h2,
+h3,
+p {
+  color: #fff;
+  margin-top: 3px;
+  margin-bottom: 3px;
+}
+
+
+.yellow {
+    color: #ebc804;
+}
+
+.green {
+    color: teal;
+}
