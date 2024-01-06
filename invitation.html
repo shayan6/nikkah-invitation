@@ -1,147 +1,139 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Nikkah Invitation</title>
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Calligraffitti&display=swap" rel="stylesheet">
-  <style>
-    body {
-      font-family: 'Calligraffitti', cursive;
-      background-color: #ebc804;
-      margin: 0;
-      padding: 0;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      min-height: 100vh;
-    }
-
-    .invitation-card {
-      background-image: url(background.png);
-      background-size: cover;
-      background-position: center;
-      width: 25rem;
-      height: 45rem;
-      padding: 30px;
-      text-align: center;
-      overflow: hidden;
-      padding: 2rem 6rem;
-    }
-
-    .couple-name {
-      color: white;
-      padding-top: 5rem;
-    }
-
-    h1, h2, p {
-      color: #fff;
-    }
-
-    .date-time {
-      font-weight: bold;
-      font-size: 1.2em;
-      margin-top: 20px;
-    }
-
-    .location {
-      margin-top: 10px;
-    }
-
-    .note {
-      margin-top: 20px;
-      color: #555;
-    }
-
-    .footer {
-      margin-top: 30px;
-      color: #777;
-      font-size: 0.9em;
-    }
-
-    img {
-      max-width: 40%;
-      margin-top: 3rem;
-    }
-    a {
-      display: block;
-      color: #FFA726;
-      text-decoration: none;
-      font-weight: bold;
-      font-size: 1.2rem;
-    }
-
-
-    @media only screen and (max-width: 767px) {
-      .invitation-card {
-        height: 35rem;
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Nikkah Invitation</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Calligraffitti&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      body {
+        font-family: "Calligraffitti", cursive;
+        background-color: #ebc804;
+        margin: 0;
+        padding: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        min-height: 100vh;
       }
-      
-    .invitation-card .groom-letter {
-      top: 7rem;
-      left: 8rem;
-    }
-    
-    .invitation-card .bride-letter {
-      top: 9rem;
-      right: 9rem;
-    }
 
-    .couple-name {
-      font-size: 1.4rem;
-      padding-top: 11rem;
-    }
+      .invitation-card {
+        background-image: url(background.png);
+        background-size: cover;
+        background-position: center;
+        width: 25rem;
+        height: 45rem;
+        padding: 30px;
+        text-align: center;
+        overflow: hidden;
+        padding: 2rem 6rem;
+      }
 
-    
-    img {
-      max-width: 50%;
-      margin-top: 3rem;
-    }
+      .heading {
+        color: white;
+        padding-top: 3rem;
+      }
 
+      .message {
+        font-size: 1.5em;
+        margin: 0 3rem;
+      }
 
-    }
+      h1,
+      h2,
+      h3,
+      p {
+        color: #fff;
+      }
 
-  </style>
-</head>
-<body>
+      .date-time {
+        font-weight: bold;
+        font-size: 1.2em;
+        margin-top: 20px;
+      }
 
-  <div class="invitation-card animate__animated animate__fadeIn">
-    <h1 class="couple-name">Deigo & Togzhan</h1>
-    <h1 style="font-size: 2em;">Wedding Invitation</h1>
-    <h2 style="font-size: 1.5em; margin: 0 3rem;">Cordially invite you to the Nikkah ceremony</h2>
-    
-    <div class="date-time">
-      <p>Date: Friday, 12th January 2024</p>
-      <p>Time: After Asr Prayer</p>
+      .location {
+        margin-top: 10px;
+      }
+
+      .note {
+        margin-top: 20px;
+        color: #555;
+      }
+
+      .footer {
+        margin-top: 30px;
+        color: #777;
+        font-size: 0.9em;
+      }
+
+      img {
+        max-width: 40%;
+        margin-top: 3rem;
+      }
+      a {
+        display: block;
+        color: #ffa726;
+        text-decoration: none;
+        font-weight: bold;
+        font-size: 1.2rem;
+      }
+
+      @media only screen and (max-width: 767px) {
+        .invitation-card {
+          height: 35rem;
+        }
+
+        .message {
+          font-size: 1.5em;
+          margin: 0rem;
+        }
+
+        img {
+          max-width: 50%;
+          margin-top: 3rem;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="invitation-card animate__animated animate__fadeIn">
+      <h2 class="heading">Wedding Invitation</h2>
+      <p class="message">Cordially invite you to the Nikkah ceremony</p>
+
+      <div class="date-time">
+        <p>Date: Friday, 12th January 2024</p>
+        <p>Time: After Asr Prayer</p>
+      </div>
+
+      <div class="location">
+        <p>Islamic Center, Tallinn, Estonia</p>
+      </div>
+
+      <div class="note">
+        <p>Kindly join us to celebrate this joyous occasion.</p>
+      </div>
     </div>
 
-    <div class="location">
-      <p>Islamic Center, Tallinn, Estonia</p>
-    </div>
-
-    <div class="note">
-      <p>Kindly join us to celebrate this joyous occasion.</p>
-    </div>
-
-    <div class="footer">
-      <p>RSVP by January 5th, 2024</p>
-    </div>
-  </div>
-
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/3.2.1/anime.min.js"></script>
-  <script>
-    // You can add additional JavaScript functionality or animations using Anime.js or other libraries
-    anime({
-      targets: '.invitation-card',
-      translateY: [-50, 0],
-      opacity: [0, 1],
-      duration: 1000,
-      easing: 'easeInOutQuad',
-    });
-  </script>
-
-</body>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/3.2.1/anime.min.js"></script>
+    <script>
+      // You can add additional JavaScript functionality or animations using Anime.js or other libraries
+      anime({
+        targets: ".invitation-card",
+        translateY: [-50, 0],
+        opacity: [0, 1],
+        duration: 1000,
+        easing: "easeInOutQuad",
+      });
+    </script>
+  </body>
 </html>
