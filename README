@@ -21,11 +21,6 @@ Include screenshots or GIFs of your project here.
 
 Follow these instructions to get a copy of the project up and running on your local machine for development and testing purposes.
 
-### Prerequisites
-
-- Web browser
-- Text editor (e.g., VSCode, Sublime Text)
-
 ### Installation
 
 1. Clone the repository: `git clone https://github.com/shayan6/nikkah-invitation.git`
@@ -50,8 +45,3 @@ If you'd like to contribute, please fork the repository and create a pull reques
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details.
-
-## Acknowledgments
-
-- Thanks to [Anime.js](https://animejs.com/) and [Animate.css](https://animate.style/) for making animations easy.
-- Special thanks to [Your Name] for contributing images.
