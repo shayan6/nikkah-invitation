@@ -13,7 +13,6 @@ Welcome to the Nikkah Ceremony Invitation project! This project is a simple web-
 
 [View the live demo](https://shayan6.github.io/nikkah-invitation/) - Insert the link to your live demo here.
 
-
 ### Screenshots
 
 ![Main page](./images/1.jpg)
